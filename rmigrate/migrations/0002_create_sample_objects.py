@@ -3,7 +3,7 @@ from django.db import migrations
 
 def up(apps, schema_editor):
     A = apps.get_model('rmigrate', 'A')
-    User = apps.get_model('rmigrate', 'User')
+    User = apps.get_model('auth', 'User')
 
     a = A(user=User.objects.first())
     a.save()

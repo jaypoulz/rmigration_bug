@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-AUTH_USER_MODEL="rmigrate.User"
+#AUTH_USER_MODEL="rmigrate.User"
 
 ROOT_URLCONF = 'rmigration_bug.urls'
 
